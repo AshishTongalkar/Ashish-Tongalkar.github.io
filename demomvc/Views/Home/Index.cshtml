@@ -1,0 +1,35 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<h1>Messsage= @ViewBag.Message</h1>
+@using (Html.BeginForm())
+{ 
+<div class="form-group">
+ @Html.Label("First number", new { @class = "control-label" })
+@Html.TextBox("FirstNumber", null, new { @class = "form-control" })
+</div>
+
+<div class="form-group">
+    @Html.Label("Second number", new { @class = "control-label" })
+    @Html.TextBox("SecondNumber", null, new { @class = "form-control" })
+</div>
+<div class="form-group">
+ <input type="submit" value="Result"  class="btn btn-primary"/>
+</div>
+
+<div class="alert alert-success">
+<p>   Result: @ViewData["Result"]  </p>
+
+</div>
+
+
+
+
+
+
+
+}

@@ -1,0 +1,104 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+    <script src="~/Scripts/modernizr-2.8.3.js"></script>
+</head>
+
+<body>
+ <div class="container-fluid">
+    <div class="row">
+            <img class=" img1 col-md-2 img-fluid" alt="Image format not supported" src="~/Photo/ashish.jpg"style="        height: 150px;
+        margin-top: 6px;
+        object-fit: contain;
+" />
+            <div class=" name col-md-6">
+                <h1>Ashish Tongalkar</h1>
+                <h4> welcome to my profile </h4>
+            </div>
+            <div class=" head col-md-4" style="padding-top:90px;">
+                <a class="heada" href='@Url.Action("Home","Home")' style="margin-left:30px;">Home</a>
+                <a class="heada" href='@Url.Action("About","Home")'style="margin-left:30px;">About</a>
+                <a class="heada" href='@Url.Action("Contact","Home")'style="margin-left:30px;">Contact</a>
+            </div>
+        </div>
+       </div>
+      
+   
+
+
+
+
+
+
+
+   
+
+    <div class="container-fluid " >
+        @RenderBody()
+        <div class="row"
+             style=" background-image:url(../Photo/programer.jpg);
+            height: 250px;
+        background-size: cover;
+        border-radius: 100px 100px 0px 0px;
+        color: white; ">
+
+            
+
+            <div class="col-md-4" style="padding-top:100px;">
+                <i class="far fa-envelope"></i> <strong>Email</strong>
+                <h5> ashishtonalkar17@gmail.com</h5>
+                <i class="fas fa-phone"></i>  +918080193389
+            </div>
+            <div class="col-md-6" style="padding-top:20px;">
+               
+
+
+                <img class="rounded-circle" src="~/Photo/ashish.jpg" height="70" width="70" style="margin-left:130px"/>
+                <h2>&nbsp Ashish Gajanan Tongalkar</h2>
+                <div class="d-inline-flex gap-4" style="margin-left:120px;padding-top:20px; ">
+
+                    <a href="https://linkedin.com/in/ashish-tongalkar-a055911bb/"><img src="~/Photo/linkdin.png" height="25" width="25" /></a>
+                   <a href="https://www.facebook.com/profile.php?id=100008771023047"> <img src="~/Photo/fb.jpg" height="25" width="25" /></a>
+                  <a href="https://www.instagram.com/ashish.tongalkar/" > <img src="~/Photo/insta.jpg" height="25" width="25" /></a>
+                  <a href="https://twitter.com/ashishtongalkar" ><img src="~/Photo/twitter.jpg" height="25" width="30" /></a>
+
+                   
+                </div>
+
+                <h5 class="pt-4" style="margin-left:77px;"><i class="far fa-copyright"></i>&nbsp Copyright@2021 Ashish Tongalkar</h5>
+
+            </div>
+            <div class="col-md-2">
+                <div class="float-end" style="padding-top:85px; " >
+                    <i class="fas fa-home"></i>&nbsp<strong>Address</strong>
+                <h5> Near sahakar Vidya Mandir,<br /> jalgaon (jamod)  443402,<br /> Maharashtra. India</h5>
+                </div>
+
+            </div>
+
+
+               
+
+        </div>
+            
+        </div>
+    
+
+    <script src="~/Scripts/jquery-3.4.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+</body>
+</html>

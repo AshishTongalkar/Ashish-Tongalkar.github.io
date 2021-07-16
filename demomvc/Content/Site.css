@@ -1,0 +1,72 @@
+﻿
+
+/* Set padding to keep content from hitting the edges */
+
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.img1 {
+    height: 150px;
+    margin-top: 6px;
+    object-fit: contain;
+}
+
+.main {
+    margin-top: 15px;
+}
+
+.name {
+    padding-top: 40px;
+}
+
+.head {
+    padding-top: 90px;
+}
+
+.heada {
+    margin-left: 30px;
+}
+
+    .heada:hover {
+        color: green;
+    }
+
+.box {
+    color: white;
+    text-align: center;
+    background-image: url("../Photo/pic.jpg");
+    height: 350px;
+    background-size: cover;
+    border-radius: 0px 0px 100px 100px;
+}
+
+.middle_h1 {
+    font-size: 70px;
+}
+
+#middle_a {
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+    #middle_a:hover {
+        color: light;
+    }
+
+#ind {
+    background: olive;
+}
+
+#left, #right {
+    background: red;
+}
+
+.jumbotron {
+    background: #e6fff2;
+}
